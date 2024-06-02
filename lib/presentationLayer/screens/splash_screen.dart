@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
               SizedBox(
                 // height: MediaQuery.of(context).size.height * 0.6,
                 // width: MediaQuery.of(context).size.width * 0.6,
-                  child: Image.asset('')),
+                  child: Image.asset('assets/images/logo.png')),
               //   SizedBox(height: 50,),
               //  Obx(()=>Text(controller.splashScreenName.value, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 22, color: AppConstant.myMainColor() ),)),
             ],
@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(seconds: 3));
     setState(() {
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        Navigator.pushNamedAndRemoveUntil(context, AppConstant.homeRoute, (route) => false);
+        Navigator.pushNamedAndRemoveUntil(context, AppConstant.mainRoute, (route) => false);
       });
     });
 

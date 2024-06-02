@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'City RMS',
+      title: 'Dokan',
       theme: light,
       // navigatorKey: navigatorKey,
       onGenerateRoute: GeneratedRoute.onGeneratedRoute,

@@ -1,5 +1,5 @@
 class AppConstant{
   static const String splashRoute='/';
-  static const String homeRoute='home_screen';
+  static const String mainRoute='main_screen';
 
 }
