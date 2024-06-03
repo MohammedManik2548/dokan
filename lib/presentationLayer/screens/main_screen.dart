@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
-
-import '../../businessLogicLayer/home_controller.dart';
+import '../../Utils/app_constant.dart';
 import '../../businessLogicLayer/navigation_controller.dart';
 import '../widgets/custom_floatingButton.dart';
 
 class MainScreen extends StatelessWidget {
-  final HomeController controller = HomeController();
+  final NavigationController controller = NavigationController();
   MainScreen({super.key});
 
   @override
@@ -19,7 +18,9 @@ class MainScreen extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: GradientFloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamedAndRemoveUntil(context, AppConstant.mainRoute, (route) => false);
+        },
         icon: Icons.search,
         gradient: const LinearGradient(
           colors: [Color(0xffFF679B), Color(0xffFF7B51)],
@@ -47,7 +48,7 @@ class MainScreen extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 10.0),
                     child: IconButton(
-                      onPressed: ()=> controller.onItemTapped(0),
+                      onPressed: ()=> controller.onItemTapped(1),
                       icon: const Icon(Icons.home_outlined,
                         color: Color(0xff6E7FAA),),
                     ),
@@ -56,7 +57,7 @@ class MainScreen extends StatelessWidget {
                       padding:
                       const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 10.0),
                       child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(1),
+                        onPressed: ()=> controller.onItemTapped(2),
                         icon: const Icon(
                           Icons.dashboard_outlined,
                           color: Color(0xff6E7FAA),
@@ -67,7 +68,7 @@ class MainScreen extends StatelessWidget {
                       padding:
                       const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 10.0),
                       child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(2),
+                        onPressed: ()=> controller.onItemTapped(3),
                         icon: const Icon(
                           Icons.shopping_cart_outlined,
                           color: Color(0xff6E7FAA),
@@ -77,7 +78,7 @@ class MainScreen extends StatelessWidget {
                   Padding(
                       padding: const EdgeInsets.only(right: 10.0),
                       child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(3),
+                        onPressed: ()=> controller.onItemTapped(4),
                         icon: const Icon(
                           Icons.person_outline,
                           color: Color(0xff6E7FAA),

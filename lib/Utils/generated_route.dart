@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../presentationLayer/screens/main_screen.dart';
+import '../presentationLayer/screens/search_Screen.dart';
 import '../presentationLayer/screens/splash_screen.dart';
 import 'app_constant.dart';
 class GeneratedRoute{
@@ -12,6 +13,10 @@ class GeneratedRoute{
       case AppConstant.mainRoute:
       // routeSettings.arguments as Map;
         return _materialRoute(MainScreen());
+
+      case AppConstant.searchRoute:
+      // routeSettings.arguments as Map;
+        return _materialRoute(SearchScreen());
 
       default:
         return _materialRoute(const Scaffold(body: Center(child: Text('No Page found')),));
