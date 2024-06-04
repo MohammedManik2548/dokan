@@ -36,7 +36,7 @@ class ProductCard extends StatelessWidget {
           SizedBox(height: 14),
           Container(
             margin: EdgeInsets.only(left: 19),
-            child: Column(
+            child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
