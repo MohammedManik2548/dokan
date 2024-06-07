@@ -60,18 +60,11 @@ class ProductModel {
       this.shippingClassId, 
       this.reviewsAllowed, 
       this.averageRating, 
-      this.ratingCount, 
-      this.upsellIds, 
-      this.crossSellIds, 
+      this.ratingCount,
       this.parentId, 
       this.purchaseNote, 
-      this.categories, 
-      this.tags, 
-      this.images, 
-      this.attributes, 
-      this.defaultAttributes, 
-      this.variations, 
-      this.groupedProducts, 
+      this.categories,
+      this.images,
       this.menuOrder, 
       this.metaData, 
       this.store, 
@@ -136,18 +129,18 @@ class ProductModel {
     reviewsAllowed = json['reviews_allowed'];
     averageRating = json['average_rating'];
     ratingCount = json['rating_count'];
-    if (json['upsell_ids'] != null) {
-      upsellIds = [];
-      // json['upsell_ids'].forEach((v) {
-      //   upsellIds?.add(Dynamic.fromJson(v));
-      // });
-    }
-    if (json['cross_sell_ids'] != null) {
-      crossSellIds = [];
-      // json['cross_sell_ids'].forEach((v) {
-      //   crossSellIds?.add(Dynamic.fromJson(v));
-      // });
-    }
+    // if (json['upsell_ids'] != null) {
+    //   upsellIds = [];
+    //   // json['upsell_ids'].forEach((v) {
+    //   //   upsellIds?.add(Dynamic.fromJson(v));
+    //   // });
+    // }
+    // if (json['cross_sell_ids'] != null) {
+    //   crossSellIds = [];
+    //   // json['cross_sell_ids'].forEach((v) {
+    //   //   crossSellIds?.add(Dynamic.fromJson(v));
+    //   // });
+    // }
     parentId = json['parent_id'];
     purchaseNote = json['purchase_note'];
     if (json['categories'] != null) {
@@ -156,42 +149,42 @@ class ProductModel {
         categories?.add(Categories.fromJson(v));
       });
     }
-    if (json['tags'] != null) {
-      tags = [];
-      // json['tags'].forEach((v) {
-      //   tags?.add(Dynamic.fromJson(v));
-      // });
-    }
+    // if (json['tags'] != null) {
+    //   tags = [];
+    //   // json['tags'].forEach((v) {
+    //   //   tags?.add(Dynamic.fromJson(v));
+    //   // });
+    // }
     if (json['images'] != null) {
       images = [];
       json['images'].forEach((v) {
         images?.add(Images.fromJson(v));
       });
     }
-    if (json['attributes'] != null) {
-      attributes = [];
-      // json['attributes'].forEach((v) {
-      //   attributes?.add(Dynamic.fromJson(v));
-      // });
-    }
-    if (json['default_attributes'] != null) {
-      defaultAttributes = [];
-      // json['default_attributes'].forEach((v) {
-      //   defaultAttributes?.add(Dynamic.fromJson(v));
-      // });
-    }
-    if (json['variations'] != null) {
-      variations = [];
-      // json['variations'].forEach((v) {
-      //   variations?.add(Dynamic.fromJson(v));
-      // });
-    }
-    if (json['grouped_products'] != null) {
-      groupedProducts = [];
-      // json['grouped_products'].forEach((v) {
-      //   groupedProducts?.add(Dynamic.fromJson(v));
-      // });
-    }
+    // if (json['attributes'] != null) {
+    //   attributes = [];
+    //   json['attributes'].forEach((v) {
+    //     attributes?.add(Dynamic.fromJson(v));
+    //   });
+    // }
+    // if (json['default_attributes'] != null) {
+    //   defaultAttributes = [];
+    //   json['default_attributes'].forEach((v) {
+    //     defaultAttributes?.add(Dynamic.fromJson(v));
+    //   });
+    // }
+    // if (json['variations'] != null) {
+    //   variations = [];
+    //   json['variations'].forEach((v) {
+    //     variations?.add(Dynamic.fromJson(v));
+    //   });
+    // }
+    // if (json['grouped_products'] != null) {
+    //   groupedProducts = [];
+    //   json['grouped_products'].forEach((v) {
+    //     groupedProducts?.add(Dynamic.fromJson(v));
+    //   });
+    // }
     menuOrder = json['menu_order'];
     if (json['meta_data'] != null) {
       metaData = [];
@@ -255,17 +248,17 @@ class ProductModel {
   bool? reviewsAllowed;
   String? averageRating;
   int? ratingCount;
-  List<dynamic>? upsellIds;
-  List<dynamic>? crossSellIds;
+  // List<dynamic>? upsellIds;
+  // List<dynamic>? crossSellIds;
   int? parentId;
   String? purchaseNote;
   List<Categories>? categories;
-  List<dynamic>? tags;
+  // List<dynamic>? tags;
   List<Images>? images;
-  List<dynamic>? attributes;
-  List<dynamic>? defaultAttributes;
-  List<dynamic>? variations;
-  List<dynamic>? groupedProducts;
+  // List<dynamic>? attributes;
+  // List<dynamic>? defaultAttributes;
+  // List<dynamic>? variations;
+  // List<dynamic>? groupedProducts;
   int? menuOrder;
   List<MetaData>? metaData;
   Store? store;
@@ -330,35 +323,35 @@ class ProductModel {
     map['reviews_allowed'] = reviewsAllowed;
     map['average_rating'] = averageRating;
     map['rating_count'] = ratingCount;
-    if (upsellIds != null) {
-      map['upsell_ids'] = upsellIds?.map((v) => v.toJson()).toList();
-    }
-    if (crossSellIds != null) {
-      map['cross_sell_ids'] = crossSellIds?.map((v) => v.toJson()).toList();
-    }
+    // if (upsellIds != null) {
+    //   map['upsell_ids'] = upsellIds?.map((v) => v.toJson()).toList();
+    // }
+    // if (crossSellIds != null) {
+    //   map['cross_sell_ids'] = crossSellIds?.map((v) => v.toJson()).toList();
+    // }
     map['parent_id'] = parentId;
     map['purchase_note'] = purchaseNote;
     if (categories != null) {
       map['categories'] = categories?.map((v) => v.toJson()).toList();
     }
-    if (tags != null) {
-      map['tags'] = tags?.map((v) => v.toJson()).toList();
-    }
+    // if (tags != null) {
+    //   map['tags'] = tags?.map((v) => v.toJson()).toList();
+    // }
     if (images != null) {
       map['images'] = images?.map((v) => v.toJson()).toList();
     }
-    if (attributes != null) {
-      map['attributes'] = attributes?.map((v) => v.toJson()).toList();
-    }
-    if (defaultAttributes != null) {
-      map['default_attributes'] = defaultAttributes?.map((v) => v.toJson()).toList();
-    }
-    if (variations != null) {
-      map['variations'] = variations?.map((v) => v.toJson()).toList();
-    }
-    if (groupedProducts != null) {
-      map['grouped_products'] = groupedProducts?.map((v) => v.toJson()).toList();
-    }
+    // if (attributes != null) {
+    //   map['attributes'] = attributes?.map((v) => v.toJson()).toList();
+    // }
+    // if (defaultAttributes != null) {
+    //   map['default_attributes'] = defaultAttributes?.map((v) => v.toJson()).toList();
+    // }
+    // if (variations != null) {
+    //   map['variations'] = variations?.map((v) => v.toJson()).toList();
+    // }
+    // if (groupedProducts != null) {
+    //   map['grouped_products'] = groupedProducts?.map((v) => v.toJson()).toList();
+    // }
     map['menu_order'] = menuOrder;
     if (metaData != null) {
       map['meta_data'] = metaData?.map((v) => v.toJson()).toList();

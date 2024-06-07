@@ -45,11 +45,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void _gotoNextPages(context) async{
     await Future.delayed(const Duration(seconds: 3));
-    setState(() {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        Navigator.pushNamedAndRemoveUntil(context, AppConstant.mainRoute, (route) => false);
-      });
-    });
+    Navigator.pushNamedAndRemoveUntil(context, AppConstant.signInRoute, (route) => false);
 
   }
 }

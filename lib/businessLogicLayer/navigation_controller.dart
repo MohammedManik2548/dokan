@@ -10,9 +10,16 @@ import '../presentationLayer/screens/shopping_screen.dart';
 class NavigationController extends GetxController {
   var selectedIndex = 0.obs;
 
+  final iconList = <IconData>[
+    Icons.home_outlined,
+    Icons.dashboard_outlined,
+    Icons.shopping_cart_outlined,
+    Icons.person_outline,
+  ];
+
   final List<Widget> _screens = [
     SearchScreen(),
-    HomeScreen(),
+    // HomeScreen(),
     DashboardScreen(),
     ShoppingScreen(),
     ProfileScreen(),

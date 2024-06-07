@@ -3,6 +3,8 @@ import 'package:get/get_state_manager/get_state_manager.dart';
 import '../../Utils/app_constant.dart';
 import '../../businessLogicLayer/navigation_controller.dart';
 import '../widgets/custom_floatingButton.dart';
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+
 
 class MainScreen extends StatelessWidget {
   final NavigationController controller = NavigationController();
@@ -28,68 +30,23 @@ class MainScreen extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      bottomNavigationBar: ClipRRect(
-        borderRadius: const BorderRadius.only(
-          topLeft: Radius.circular(30.0),
-          topRight: Radius.circular(30.0),
-        ),
-        child: BottomAppBar(
-          height: 70,
-          notchMargin: 10.0,
-          elevation: 50,
-          shape: const CircularNotchedRectangle(),
-          color: Colors.white,
-          child: GetBuilder<NavigationController>(
-            builder: (controller){
-              return Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 10.0),
-                    child: IconButton(
-                      onPressed: ()=> controller.onItemTapped(1),
-                      icon: const Icon(Icons.home_outlined,
-                        color: Color(0xff6E7FAA),),
-                    ),
-                  ),
-                  Padding(
-                      padding:
-                      const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 10.0),
-                      child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(2),
-                        icon: const Icon(
-                          Icons.dashboard_outlined,
-                          color: Color(0xff6E7FAA),
-                        ),
-                      )
-                  ),
-                  Padding(
-                      padding:
-                      const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 10.0),
-                      child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(3),
-                        icon: const Icon(
-                          Icons.shopping_cart_outlined,
-                          color: Color(0xff6E7FAA),
-                        ),
-                      )
-                  ),
-                  Padding(
-                      padding: const EdgeInsets.only(right: 10.0),
-                      child: IconButton(
-                        onPressed: ()=> controller.onItemTapped(4),
-                        icon: const Icon(
-                          Icons.person_outline,
-                          color: Color(0xff6E7FAA),
-                        ),
-                      )
-                  ),
-                ],
-              );
-            },
-          ),
-        ),
+      bottomNavigationBar: GetX<NavigationController>(
+        builder: (controller){
+          return AnimatedBottomNavigationBar(
+            backgroundColor: Colors.white,
+              icons: controller.iconList,
+              activeIndex: controller.selectedIndex.value,
+              activeColor: const Color(0xFFF75F55),
+              gapLocation: GapLocation.center,
+              notchSmoothness: NotchSmoothness.defaultEdge,
+              leftCornerRadius: 32,
+              rightCornerRadius: 32,
+              height: 80,
+              onTap: (index){
+                controller.onItemTapped(index);
+              }
+          );
+        },
       ),
     );
   }

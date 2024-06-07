@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get_core/src/smart_management.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -12,6 +13,9 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+  /// flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -22,7 +26,7 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: GeneratedRoute.onGeneratedRoute,
       initialRoute: AppConstant.splashRoute,
       smartManagement: SmartManagement.full,
-      // builder: EasyLoading.init(),
+      builder: EasyLoading.init(),
     );
   }
 }

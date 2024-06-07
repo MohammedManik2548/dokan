@@ -44,7 +44,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -100,106 +99,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 79839,
-        "key": "onesignal_meta_box_present",
-        "value": "1"
-      },
-      {
-        "id": 79840,
-        "key": "onesignal_send_notification",
-        "value": ""
-      },
-      {
-        "id": 79841,
-        "key": "_product_addons",
-        "value": []
-      },
-      {
-        "id": 79842,
-        "key": "_product_addons_exclude_global",
-        "value": "0"
-      },
-      {
-        "id": 79861,
-        "key": "_per_product_admin_commission_type",
-        "value": "flat"
-      },
-      {
-        "id": 79862,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 79863,
-        "key": "_per_product_admin_additional_fee",
-        "value": ""
-      },
-      {
-        "id": 79865,
-        "key": "pageview",
-        "value": "4"
-      },
-      {
-        "id": 79949,
-        "key": "_lot_discount_quantity",
-        "value": "0"
-      },
-      {
-        "id": 79950,
-        "key": "_lot_discount_amount",
-        "value": "0"
-      },
-      {
-        "id": 79951,
-        "key": "_is_lot_discount",
-        "value": "no"
-      },
-      {
-        "id": 79956,
-        "key": "_disable_shipping",
-        "value": "no"
-      },
-      {
-        "id": 79957,
-        "key": "_overwrite_shipping",
-        "value": "no"
-      },
-      {
-        "id": 79958,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 79959,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 79960,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 79963,
-        "key": "_product_url",
-        "value": "https://www.amazon.com/Amazon-Essentials-Womens-Heeled-Sandal/dp/B08MXT4KKT?ref_=Oct_DLandingS_D_ec376f60_60&smid=ATVPDKIKX0DER"
-      },
-      {
-        "id": 79964,
-        "key": "_button_text",
-        "value": "buy from amazon"
-      },
-      {
-        "id": 79965,
-        "key": "_children",
-        "value": [
-          2353,
-          517
-        ]
-      }
-    ],
     "store": {
       "id": 2,
       "name": "leaatherx",
@@ -266,7 +165,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -371,97 +269,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 73025,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": "yes"
-      },
-      {
-        "id": 73026,
-        "key": "dokan_geo_latitude",
-        "value": ""
-      },
-      {
-        "id": 73027,
-        "key": "dokan_geo_longitude",
-        "value": ""
-      },
-      {
-        "id": 73028,
-        "key": "dokan_geo_public",
-        "value": ""
-      },
-      {
-        "id": 73029,
-        "key": "dokan_geo_address",
-        "value": ""
-      },
-      {
-        "id": 73037,
-        "key": "_dokan_rma_override_product",
-        "value": "no"
-      },
-      {
-        "id": 73038,
-        "key": "_dokan_wholesale_meta",
-        "value": {
-          "enable_wholesale": "no",
-          "price": "",
-          "quantity": 0
-        }
-      },
-      {
-        "id": 73039,
-        "key": "_lot_discount_quantity",
-        "value": "0"
-      },
-      {
-        "id": 73040,
-        "key": "_lot_discount_amount",
-        "value": "0"
-      },
-      {
-        "id": 73041,
-        "key": "_is_lot_discount",
-        "value": "no"
-      },
-      {
-        "id": 73046,
-        "key": "_disable_shipping",
-        "value": "no"
-      },
-      {
-        "id": 73047,
-        "key": "_overwrite_shipping",
-        "value": "no"
-      },
-      {
-        "id": 73048,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 73049,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 73050,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 73053,
-        "key": "pageview",
-        "value": "5"
-      },
-      {
-        "id": 73951,
-        "key": "inactive_product_flag",
-        "value": "yes"
-      }
-    ],
     "store": {
       "id": 1324,
       "name": "Moonlight Seeds",
@@ -528,7 +335,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -598,122 +404,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 1518,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": "yes"
-      },
-      {
-        "id": 1519,
-        "key": "dokan_geo_latitude",
-        "value": "38.8959683"
-      },
-      {
-        "id": 1520,
-        "key": "dokan_geo_longitude",
-        "value": "-104.74377900000002"
-      },
-      {
-        "id": 1521,
-        "key": "dokan_geo_public",
-        "value": "1"
-      },
-      {
-        "id": 1522,
-        "key": "dokan_geo_address",
-        "value": "4515 Barnes Rd, Colorado Springs, CO 80917, USA"
-      },
-      {
-        "id": 1523,
-        "key": "_lot_discount_quantity",
-        "value": ""
-      },
-      {
-        "id": 1524,
-        "key": "_lot_discount_amount",
-        "value": ""
-      },
-      {
-        "id": 1525,
-        "key": "_is_lot_discount",
-        "value": ""
-      },
-      {
-        "id": 1526,
-        "key": "_disable_shipping",
-        "value": ""
-      },
-      {
-        "id": 1527,
-        "key": "_overwrite_shipping",
-        "value": ""
-      },
-      {
-        "id": 1528,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 1529,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 1530,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 1531,
-        "key": "pageview",
-        "value": "14"
-      },
-      {
-        "id": 1532,
-        "key": "_has_multi_vendor",
-        "value": ""
-      },
-      {
-        "id": 1533,
-        "key": "_per_product_admin_commission_type",
-        "value": "percentage"
-      },
-      {
-        "id": 1534,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 1535,
-        "key": "inactive_product_flag",
-        "value": "yes"
-      },
-      {
-        "id": 70361,
-        "key": "onesignal_meta_box_present",
-        "value": "1"
-      },
-      {
-        "id": 70362,
-        "key": "onesignal_send_notification",
-        "value": ""
-      },
-      {
-        "id": 70363,
-        "key": "_dokan_wholesale_meta",
-        "value": {
-          "enable_wholesale": "no",
-          "price": "",
-          "quantity": ""
-        }
-      },
-      {
-        "id": 70364,
-        "key": "_per_product_admin_additional_fee",
-        "value": ""
-      }
-    ],
     "store": {
       "id": 6,
       "name": "Toy World",
@@ -780,7 +470,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -836,132 +525,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 1449,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": "yes"
-      },
-      {
-        "id": 1450,
-        "key": "dokan_geo_latitude",
-        "value": "40.442403"
-      },
-      {
-        "id": 1451,
-        "key": "dokan_geo_longitude",
-        "value": "-79.94431250000002"
-      },
-      {
-        "id": 1452,
-        "key": "dokan_geo_public",
-        "value": "1"
-      },
-      {
-        "id": 1453,
-        "key": "dokan_geo_address",
-        "value": "Doherty Hall, 5000 Forbes Ave, Pittsburgh, PA 15213, USA"
-      },
-      {
-        "id": 1454,
-        "key": "_lot_discount_quantity",
-        "value": ""
-      },
-      {
-        "id": 1455,
-        "key": "_lot_discount_amount",
-        "value": ""
-      },
-      {
-        "id": 1456,
-        "key": "_is_lot_discount",
-        "value": ""
-      },
-      {
-        "id": 1457,
-        "key": "_disable_shipping",
-        "value": ""
-      },
-      {
-        "id": 1458,
-        "key": "_overwrite_shipping",
-        "value": ""
-      },
-      {
-        "id": 1459,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 1460,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 1461,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 1462,
-        "key": "pageview",
-        "value": "21"
-      },
-      {
-        "id": 1463,
-        "key": "_has_multi_vendor",
-        "value": ""
-      },
-      {
-        "id": 1464,
-        "key": "_per_product_admin_commission_type",
-        "value": "flat"
-      },
-      {
-        "id": 1465,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 1466,
-        "key": "inactive_product_flag",
-        "value": ""
-      },
-      {
-        "id": 70400,
-        "key": "onesignal_meta_box_present",
-        "value": "1"
-      },
-      {
-        "id": 70401,
-        "key": "onesignal_send_notification",
-        "value": ""
-      },
-      {
-        "id": 70402,
-        "key": "_dokan_wholesale_meta",
-        "value": {
-          "enable_wholesale": "no",
-          "price": "",
-          "quantity": ""
-        }
-      },
-      {
-        "id": 70403,
-        "key": "_per_product_admin_additional_fee",
-        "value": ""
-      },
-      {
-        "id": 76059,
-        "key": "_product_addons",
-        "value": []
-      },
-      {
-        "id": 76060,
-        "key": "_product_addons_exclude_global",
-        "value": "0"
-      }
-    ],
     "store": {
       "id": 3,
       "name": "Fruite Garder",
@@ -1028,7 +591,6 @@
     "tax_class": "",
     "manage_stock": true,
     "stock_quantity": 1182,
-    "low_stock_amount": 2,
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -1121,142 +683,6 @@
     ],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 1137,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": "yes"
-      },
-      {
-        "id": 1138,
-        "key": "dokan_geo_latitude",
-        "value": "48.8957642"
-      },
-      {
-        "id": 1139,
-        "key": "dokan_geo_longitude",
-        "value": "2.340164100000038"
-      },
-      {
-        "id": 1140,
-        "key": "dokan_geo_public",
-        "value": "1"
-      },
-      {
-        "id": 1141,
-        "key": "dokan_geo_address",
-        "value": "Rue Championnet, 75018 Paris, France"
-      },
-      {
-        "id": 1142,
-        "key": "_lot_discount_quantity",
-        "value": "3"
-      },
-      {
-        "id": 1143,
-        "key": "_lot_discount_amount",
-        "value": "10"
-      },
-      {
-        "id": 1144,
-        "key": "_is_lot_discount",
-        "value": "yes"
-      },
-      {
-        "id": 1145,
-        "key": "_disable_shipping",
-        "value": "no"
-      },
-      {
-        "id": 1146,
-        "key": "_overwrite_shipping",
-        "value": "no"
-      },
-      {
-        "id": 1147,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 1148,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 1149,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 1150,
-        "key": "pageview",
-        "value": "28"
-      },
-      {
-        "id": 1151,
-        "key": "_has_multi_vendor",
-        "value": ""
-      },
-      {
-        "id": 1152,
-        "key": "_per_product_admin_commission_type",
-        "value": "percentage"
-      },
-      {
-        "id": 1153,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 1154,
-        "key": "inactive_product_flag",
-        "value": ""
-      },
-      {
-        "id": 2554,
-        "key": "_dokan_rma_override_product",
-        "value": "no"
-      },
-      {
-        "id": 2555,
-        "key": "_dokan_wholesale_meta",
-        "value": {
-          "enable_wholesale": "no",
-          "price": "",
-          "quantity": ""
-        }
-      },
-      {
-        "id": 2556,
-        "key": "_create_variation",
-        "value": "yes"
-      },
-      {
-        "id": 57948,
-        "key": "onesignal_meta_box_present",
-        "value": "1"
-      },
-      {
-        "id": 57949,
-        "key": "onesignal_send_notification",
-        "value": ""
-      },
-      {
-        "id": 57950,
-        "key": "_per_product_admin_additional_fee",
-        "value": ""
-      },
-      {
-        "id": 76016,
-        "key": "_product_addons",
-        "value": []
-      },
-      {
-        "id": 76017,
-        "key": "_product_addons_exclude_global",
-        "value": "0"
-      }
-    ],
     "store": {
       "id": 4,
       "name": "Shopper World",
@@ -1323,7 +749,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -1384,98 +809,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 1113,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": ""
-      },
-      {
-        "id": 1114,
-        "key": "dokan_geo_latitude",
-        "value": "48.8957642"
-      },
-      {
-        "id": 1115,
-        "key": "dokan_geo_longitude",
-        "value": "2.340164100000038"
-      },
-      {
-        "id": 1116,
-        "key": "dokan_geo_public",
-        "value": "1"
-      },
-      {
-        "id": 1117,
-        "key": "dokan_geo_address",
-        "value": "Rue Championnet, 75018 Paris, France"
-      },
-      {
-        "id": 1118,
-        "key": "_lot_discount_quantity",
-        "value": ""
-      },
-      {
-        "id": 1119,
-        "key": "_lot_discount_amount",
-        "value": ""
-      },
-      {
-        "id": 1120,
-        "key": "_is_lot_discount",
-        "value": ""
-      },
-      {
-        "id": 1121,
-        "key": "_disable_shipping",
-        "value": ""
-      },
-      {
-        "id": 1122,
-        "key": "_overwrite_shipping",
-        "value": ""
-      },
-      {
-        "id": 1123,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 1124,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 1125,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 1126,
-        "key": "pageview",
-        "value": "8"
-      },
-      {
-        "id": 1127,
-        "key": "_has_multi_vendor",
-        "value": ""
-      },
-      {
-        "id": 1128,
-        "key": "_per_product_admin_commission_type",
-        "value": ""
-      },
-      {
-        "id": 1129,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 1130,
-        "key": "inactive_product_flag",
-        "value": ""
-      }
-    ],
     "store": {
       "id": 4,
       "name": "Shopper World",
@@ -1542,7 +875,6 @@
     "tax_class": "",
     "manage_stock": false,
     "stock_quantity": null,
-    "low_stock_amount": "",
     "in_stock": true,
     "backorders": "no",
     "backorders_allowed": false,
@@ -1595,98 +927,6 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "meta_data": [
-      {
-        "id": 1065,
-        "key": "_dokan_geolocation_use_store_settings",
-        "value": "yes"
-      },
-      {
-        "id": 1066,
-        "key": "dokan_geo_latitude",
-        "value": "38.8959683"
-      },
-      {
-        "id": 1067,
-        "key": "dokan_geo_longitude",
-        "value": "-104.74377900000002"
-      },
-      {
-        "id": 1068,
-        "key": "dokan_geo_public",
-        "value": "1"
-      },
-      {
-        "id": 1069,
-        "key": "dokan_geo_address",
-        "value": "4515 Barnes Rd, Colorado Springs, CO 80917, USA"
-      },
-      {
-        "id": 1070,
-        "key": "_lot_discount_quantity",
-        "value": "0"
-      },
-      {
-        "id": 1071,
-        "key": "_lot_discount_amount",
-        "value": "0"
-      },
-      {
-        "id": 1072,
-        "key": "_is_lot_discount",
-        "value": "no"
-      },
-      {
-        "id": 1073,
-        "key": "_disable_shipping",
-        "value": "no"
-      },
-      {
-        "id": 1074,
-        "key": "_overwrite_shipping",
-        "value": "no"
-      },
-      {
-        "id": 1075,
-        "key": "_additional_price",
-        "value": ""
-      },
-      {
-        "id": 1076,
-        "key": "_additional_qty",
-        "value": ""
-      },
-      {
-        "id": 1077,
-        "key": "_dps_processing_time",
-        "value": ""
-      },
-      {
-        "id": 1078,
-        "key": "pageview",
-        "value": "23"
-      },
-      {
-        "id": 1079,
-        "key": "_has_multi_vendor",
-        "value": ""
-      },
-      {
-        "id": 1080,
-        "key": "_per_product_admin_commission_type",
-        "value": ""
-      },
-      {
-        "id": 1081,
-        "key": "_per_product_admin_commission",
-        "value": ""
-      },
-      {
-        "id": 1082,
-        "key": "inactive_product_flag",
-        "value": "yes"
-      }
-    ],
     "store": {
       "id": 2,
       "name": "leaatherx",
