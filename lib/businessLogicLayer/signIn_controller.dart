@@ -41,10 +41,7 @@ class SignInController extends GetxController{
     }catch(e, l){
       print('check_error: $e');
       print('check_error_line: $l');
-    }finally{
-      EasyLoading.dismiss();
     }
-
 
   }
 
